@@ -1,0 +1,349 @@
+/* colors
+#f5f3f4
+#fffff
+#efd0bc
+black */
+/* #e9edc9 */
+
+/* ---------index.html ----------- */
+/* ------------HEADER-------------- */
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  background-image: url('photos/simple.jpg');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+.layer {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.home-btn {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  border: 5px solid black;
+  padding: 20px 60px;
+  border-radius: 10px;
+  letter-spacing: 4px;
+  text-decoration: none;
+  margin-top: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.home-btn:hover {
+  background-color: #efd0bc;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-p {
+  padding-top: 100px;
+  font-size: 20px;
+}
+
+/* ------------ABOUT BLOG-------------- */
+
+.main-link {
+  width: auto;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  width: auto;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #e9edc9;
+  padding: 80px 0;
+  gap: 150px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-weight: 600;
+}
+.home-identity {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 40px 70px;
+}
+
+.home-learning {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.identity-btn,
+.learning-btn {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.identity-btn:hover,
+.learning-btn:hover {
+  background-color: #efd0bc;
+  color: black;
+}
+
+/* ------------FOOTER------------- */
+
+h4 {
+  width: auto;
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  letter-spacing: 3px;
+}
+
+.link-photo {
+  width: 430px;
+  height: 610px;
+}
+
+.blog-links {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.blog-links ul {
+  border: 1px solid black;
+  padding: 50px 130px;
+}
+
+.te-houtaewa-link {
+  display: flex;
+  padding-top: 50px;
+}
+
+.te-houtaewa-link:hover {
+  text-decoration: underline;
+}
+
+.home {
+  display: flex;
+  padding-top: 150px;
+  text-decoration: underline;
+}
+
+.home:hover {
+  text-decoration: underline;
+}
+
+/* ---------------html-css.html-------------*/
+
+.inline-vs {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  letter-spacing: 5px;
+  background-color: #e9edc9;
+}
+
+.main-content {
+  display: grid;
+  grid-template-rows: 0.3fr 0.3fr 0.3fr;
+  width: auto;
+  gap: 70px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  letter-spacing: 3px;
+}
+
+.html-css-link {
+  display: flex;
+  padding-top: 50px;
+}
+.html-css-link:hover {
+  text-decoration: underline;
+}
+
+/* -------------Identity, Values & Strengths----------------- */
+
+.identity {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 40px;
+  letter-spacing: 3px;
+  background-color: #e9edc9;
+}
+
+.identity h3 {
+  padding-bottom: 50px;
+}
+
+.identity-link {
+  display: flex;
+  padding-top: 50px;
+}
+
+.identity-link:hover {
+  text-decoration: underline;
+}
+
+/* ---------Learning Plan--------- */
+
+.learning-plan {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 40px;
+  letter-spacing: 3px;
+  background-color: #e9edc9;
+}
+
+.learning-plan h3 {
+  padding-bottom: 50px;
+}
+
+.learning-plan-link {
+  display: flex;
+  padding-top: 50px;
+}
+
+.learning-plan-link:hover {
+  text-decoration: underline;
+}
+/* ------------MEDIA---------- */
+
+@media (max-width: 740px) {
+  .home-btn {
+    font-size: 40px;
+  }
+  .main-p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 625px) {
+  .layer {
+    height: 500px;
+  }
+  .home-btn {
+    font-size: 30px;
+    padding: 20px 30px;
+  }
+  .main-p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-btn {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .home-btn {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .home-btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .main-link {
+    grid-template-columns: 0.8fr;
+  }
+}
+
+@media (max-width: 1100px) {
+  .blog-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .blog-links ul {
+    padding-bottom: 50px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer h4 {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1050px) {
+  .main-content {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 630px) {
+  .inline-vs {
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
