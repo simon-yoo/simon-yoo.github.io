@@ -185,7 +185,7 @@ h4 {
 
 .main-content {
   display: grid;
-  grid-template-rows: 0.3fr 0.3fr 0.3fr;
+  grid-template-columns: auto;
   width: auto;
   gap: 70px;
   text-align: center;
@@ -345,5 +345,12 @@ h4 {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media (max-width: 1050px) {
+  hr {
+    transform: rotate(90deg);
+    padding: 100px 0px;
   }
 }
