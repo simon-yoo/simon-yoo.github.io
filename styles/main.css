@@ -4,6 +4,10 @@
 #efd0bc
 black */
 /* #e9edc9 */
+/* #778da9 */
+/* #d5b9b2 */
+/* #d8e2dc */
+/* f2e9e4 */
 
 /* ---------index.html ----------- */
 /* ------------HEADER-------------- */
@@ -13,22 +17,24 @@ black */
 }
 
 body {
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-  width: 100%;
-  background-color: #ffffff;
-  background-image: url('photos/simple.jpg');
-  background-position: top;
-  background-size: contain;
+  width: auto;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  background-image: url(/styles/photos/simple.jpg);
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+
+  border: 1px solid black;
 }
 
 .layer {
-  width: 100%;
-  height: 800px;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +44,7 @@ body {
 .home-btn {
   display: block;
   text-align: center;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: 600;
   border: 5px solid black;
   padding: 20px 60px;
@@ -61,7 +67,7 @@ a {
 }
 
 .main-p {
-  padding-top: 100px;
+  padding-top: 580px;
   font-size: 20px;
 }
 
@@ -71,13 +77,14 @@ a {
   width: auto;
   display: grid;
   grid-template-columns: 30% 30%;
-  width: auto;
   justify-content: center;
   margin-top: 100px;
-  background-color: #e9edc9;
-  padding: 80px 0;
+  background-color: #d8e2dc;
+  padding: 200px 0;
   gap: 150px;
   letter-spacing: 3px;
+  border-radius: 3px;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -90,7 +97,9 @@ h3 {
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 40px 70px;
+  padding: 100px 70px;
+  background-color: #778da9;
+  color: #ffffff;
 }
 
 .home-learning {
@@ -100,10 +109,9 @@ h3 {
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 100px 70px;
+  background-color: #d5b9b2;
+  /* color: #ffffff; */
 }
 
 .identity-btn,
@@ -122,37 +130,57 @@ h3 {
 
 /* ------------FOOTER------------- */
 
-h4 {
+.footer {
+  width: auto;
+  padding: 100px 0;
+  background-color: #f2e9e4;
+  margin-top: 100px;
+}
+
+h2 {
   width: auto;
   display: block;
-  flex-direction: column;
   text-align: center;
-  font-size: 18px;
   font-weight: 600;
   margin-top: 100px;
   margin-bottom: 100px;
   letter-spacing: 3px;
 }
 
-.link-photo {
-  width: 430px;
-  height: 610px;
-}
-
 .blog-links {
   width: auto;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 80px;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.blog-links ul {
+.left-footer {
+  width: 30%;
   border: 1px solid black;
-  padding: 50px 130px;
+  border-radius: 3px;
+}
+
+.right-footer {
+  font-size: 20px;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: bisque;
+}
+
+.right-footer h2 {
+  font-size: 30px;
+  padding: 0 40px;
+}
+.right-footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
 }
 
 .te-houtaewa-link {
-  display: flex;
   padding-top: 50px;
 }
 
@@ -172,28 +200,76 @@ h4 {
 
 /* ---------------html-css.html-------------*/
 
+.display-section {
+  width: auto;
+  padding-bottom: 100px;
+}
+
 .inline-vs {
-  display: flex;
+  display: block;
   text-align: center;
   justify-content: center;
   font-weight: 600;
   padding-top: 40px;
   padding-bottom: 40px;
   letter-spacing: 5px;
-  background-color: #e9edc9;
+  background-color: #d8e2dc;
+  border: 3px solid black;
+  border-radius: 3px;
 }
 
 .main-content {
-  display: grid;
-  grid-template-columns: auto;
   width: auto;
-  gap: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  letter-spacing: 3px;
+}
+
+.inline {
+  width: 60%;
+  border: 1px solid black;
+  margin-top: 50px;
+  padding: 0 50px;
+}
+.block {
+  width: 60%;
+  border: 1px solid black;
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.inline-block {
+  width: 60%;
+  border: 1px solid black;
+  margin-top: 50px;
+  padding: 0 50px;
+}
+.example {
+  width: 60%;
+  border: 1px solid black;
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.photo-inline {
+  width: 60%;
+  padding: 50px 0;
+}
+
+.photo-in-block {
+  width: 60%;
+  padding: 50px 0;
+}
+
+.photo-block {
+  width: 60%;
+  padding: 50px 0;
+}
+
+.photo-example {
+  width: 60%;
+  padding: 50px 0;
 }
 
 .html-css-link {
@@ -212,12 +288,20 @@ h4 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 70px 40px;
+  padding: 200px 10px;
   letter-spacing: 3px;
-  background-color: #e9edc9;
+  font-size: 20px;
+  background-color: #d5b9b2;
+  margin-top: 100px;
+  border: 3px solid #778da9;
+  border-radius: 3px;
 }
 
+.identity div {
+  padding: 20px 0;
+}
 .identity h3 {
+  font-size: 40px;
   padding-bottom: 50px;
 }
 
@@ -238,12 +322,21 @@ h4 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 70px 40px;
+  padding: 200px 20px;
   letter-spacing: 3px;
-  background-color: #e9edc9;
+  font-size: 20px;
+  background-color: #778da9;
+  color: #ffffff;
+  border: 3px solid #d5b9b2;
+  border-radius: 3px;
+  margin-top: 100px;
 }
 
+.learning-plan div {
+  padding: 20px 0;
+}
 .learning-plan h3 {
+  font-size: 40px;
   padding-bottom: 50px;
 }
 
@@ -257,6 +350,11 @@ h4 {
 }
 /* ------------MEDIA---------- */
 
+@media (max-width: 1327px) {
+  .home-btn {
+    font-size: 50px;
+  }
+}
 @media (max-width: 740px) {
   .home-btn {
     font-size: 40px;
@@ -304,19 +402,6 @@ h4 {
   }
 }
 
-@media (max-width: 1100px) {
-  .blog-links {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-  .blog-links ul {
-    padding-bottom: 50px;
-    margin-top: 80px;
-  }
-}
-
 @media (max-width: 750px) {
   .footer h4 {
     font-size: 15px;
@@ -331,14 +416,6 @@ h4 {
   }
 }
 
-@media (min-width: 1050px) {
-  .main-content {
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center;
-  }
-}
-
 @media (max-width: 630px) {
   .inline-vs {
     font-size: 18px;
@@ -348,9 +425,50 @@ h4 {
   }
 }
 
-@media (max-width: 1050px) {
-  hr {
-    transform: rotate(90deg);
-    padding: 100px 0px;
+@media (max-width: 2235px) {
+  .blog-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .left-footer {
+    width: 80%;
+    margin-bottom: 100px;
+  }
+  .right-footer {
+    width: 80%;
+    padding-bottom: 100px;
+  }
+  .right-footer ul {
+    padding-right: 40px;
+  }
+}
+@media (max-width: 725px) {
+  .right-footer h2 {
+    font-size: 17px;
+    padding: 0 10px;
+  }
+  .right-footer {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 504px) {
+  .learning-plan h3 {
+    font-size: 16px;
+  }
+  .learning-plan {
+    font-size: 13px;
+  }
+}
+@media (max-width: 504px) {
+  .identity h3 {
+    font-size: 16px;
+  }
+  .identity {
+    font-size: 13px;
   }
 }
