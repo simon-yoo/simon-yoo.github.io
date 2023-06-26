@@ -70,7 +70,20 @@ a {
   padding-top: 580px;
   font-size: 20px;
 }
+/* --------------Te-Houtaewa------------*/
 
+.te-houtaewa {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+  letter-spacing: 3px;
+  background-color: #d8e2dc;
+  margin-top: 100px;
+  border: 3px solid #e9edc9;
+  border-radius: 3px;
+}
 /* ------------ABOUT BLOG-------------- */
 
 .main-link {
@@ -171,6 +184,7 @@ h2 {
 .right-footer h2 {
   font-size: 30px;
   padding: 0 40px;
+  margin: 40px 0;
 }
 .right-footer ul {
   display: flex;
@@ -178,6 +192,12 @@ h2 {
   align-items: center;
   text-align: center;
   padding-top: 100px;
+  padding-left: 40px;
+}
+.right-footer li {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .te-houtaewa-link {
@@ -191,11 +211,13 @@ h2 {
 .home {
   display: flex;
   padding-top: 150px;
-  text-decoration: underline;
 }
 
 .home:hover {
   text-decoration: underline;
+}
+.icon {
+  padding-right: 10px;
 }
 
 /* ---------------html-css.html-------------*/
@@ -274,7 +296,7 @@ h2 {
 
 .html-css-link {
   display: flex;
-  padding-top: 50px;
+  padding-top: 200px;
 }
 .html-css-link:hover {
   text-decoration: underline;
@@ -307,7 +329,6 @@ h2 {
 
 .identity-link {
   display: flex;
-  padding-top: 50px;
 }
 
 .identity-link:hover {
@@ -342,12 +363,51 @@ h2 {
 
 .learning-plan-link {
   display: flex;
-  padding-top: 50px;
 }
 
 .learning-plan-link:hover {
   text-decoration: underline;
 }
+
+/* -------------Emotional-intelligence------------- */
+
+.emotional {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  letter-spacing: 3px;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin: 150px 0;
+  padding: 50px 50px;
+}
+
+.eq h1 {
+  margin: 100px 0 70px 0;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #778da9;
+}
+
+.eq p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.mindful h1 {
+  margin: 100px 0 70px 0;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #d5b9b2;
+}
+.mindful ul li {
+  padding: 20px;
+}
+
+.mindful i {
+  margin-top: 70px;
+}
+
 /* ------------MEDIA---------- */
 
 @media (max-width: 1327px) {
