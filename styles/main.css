@@ -183,7 +183,7 @@ h2 {
 
 .right-footer h2 {
   font-size: 30px;
-  padding: 0 40px;
+  padding: 20px 40px;
   margin: 40px 0;
 }
 .right-footer ul {
@@ -191,7 +191,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 40px;
 }
 .right-footer li {
@@ -296,7 +296,6 @@ h2 {
 
 .html-css-link {
   display: flex;
-  padding-top: 200px;
 }
 .html-css-link:hover {
   text-decoration: underline;
@@ -380,6 +379,7 @@ h2 {
   border-radius: 3px;
   margin: 150px 0;
   padding: 50px 50px;
+  font-size: 20px;
 }
 
 .eq h1 {
@@ -387,6 +387,8 @@ h2 {
   border: 1px solid black;
   border-radius: 3px;
   background-color: #778da9;
+  font-weight: 600;
+  font-size: 60px;
 }
 
 .eq p {
@@ -399,15 +401,21 @@ h2 {
   border: 1px solid black;
   border-radius: 3px;
   background-color: #d5b9b2;
+  font-weight: 600;
+  font-size: 60px;
+}
+.mindful p {
+  padding-bottom: 50px;
 }
 .mindful ul li {
   padding: 20px;
 }
-
-.mindful i {
-  margin-top: 70px;
+.mindful h3 {
+  margin-top: 80px;
 }
-
+.emotional-link:hover {
+  text-decoration: underline;
+}
 /* ------------MEDIA---------- */
 
 @media (max-width: 1327px) {
