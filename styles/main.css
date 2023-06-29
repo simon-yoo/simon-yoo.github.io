@@ -59,6 +59,7 @@ body {
 .home-btn:hover {
   background-color: #efd0bc;
   color: black;
+  cursor: pointer;
 }
 
 a {
@@ -67,7 +68,7 @@ a {
 }
 
 .main-p {
-  padding-top: 580px;
+  padding-top: 720px;
   font-size: 20px;
 }
 /* --------------Te-Houtaewa------------*/
@@ -124,7 +125,7 @@ h3 {
   border-radius: 5px;
   padding: 100px 70px;
   background-color: #d5b9b2;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .identity-btn,
@@ -139,6 +140,7 @@ h3 {
 .learning-btn:hover {
   background-color: #efd0bc;
   color: black;
+  cursor: pointer;
 }
 
 /* ------------FOOTER------------- */
@@ -210,7 +212,7 @@ h2 {
 
 .home {
   display: flex;
-  padding-top: 150px;
+  margin-top: 150px;
 }
 
 .home:hover {
@@ -416,6 +418,81 @@ h2 {
 .emotional-link:hover {
   text-decoration: underline;
 }
+
+/* -----------JAVASCRIPT-DOM--------------- */
+
+.javascript-dom {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-top: 100px;
+  letter-spacing: 3px;
+}
+
+.javascript-dom h1 {
+  font-size: 30px;
+}
+
+.javascript-dom h2 {
+  padding-top: 50px;
+  text-decoration: underline;
+}
+
+.relationship {
+  border: 3px solid black;
+  padding: 100px 30px;
+  margin: 0 50px 50px 50px;
+  background-color: #778da9;
+  color: #fff;
+}
+
+.control-flow {
+  border: 3px solid black;
+  padding: 100px 30px;
+  margin: 0 50px 50px 50px;
+  background-color: #d8e2dc;
+}
+
+.function {
+  border: 3px solid black;
+  padding: 100px 30px;
+  margin: 0 50px 50px 50px;
+  background-color: #d5b9b2;
+  color: #fff;
+}
+
+.dom {
+  border: 3px solid black;
+  padding: 100px 30px;
+  margin: 0 50px 50px 50px;
+  background-color: #efd0bc;
+}
+
+.function h1 {
+  padding-bottom: 100px;
+}
+
+.dom h1 {
+  padding-bottom: 100px;
+}
+
+.dom h4 {
+  padding-top: 50px;
+}
+
+.dom h3 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.dom h5 {
+  padding-top: 40px;
+}
+
+.javascript-dom-link:hover {
+  text-decoration: underline;
+}
 /* ------------MEDIA---------- */
 
 @media (max-width: 1327px) {
@@ -435,7 +512,7 @@ h2 {
 
 @media (max-width: 625px) {
   .layer {
-    height: 500px;
+    height: 650px;
   }
   .home-btn {
     font-size: 30px;
