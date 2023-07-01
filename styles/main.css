@@ -435,7 +435,7 @@ h2 {
 }
 
 .javascript-dom h2 {
-  padding-top: 50px;
+  padding-top: 30px;
   text-decoration: underline;
 }
 
@@ -469,12 +469,12 @@ h2 {
   background-color: #efd0bc;
 }
 
-.function h1 {
-  padding-bottom: 100px;
+.function p {
+  padding-top: 100px;
 }
 
-.dom h1 {
-  padding-bottom: 100px;
+.dom p {
+  padding-top: 100px;
 }
 
 .dom h4 {
@@ -492,6 +492,53 @@ h2 {
 
 .javascript-dom-link:hover {
   text-decoration: underline;
+}
+
+.img-1 {
+  height: 500px;
+  width: 650px;
+  margin-top: 40px;
+}
+.img-2 {
+  height: 500px;
+  width: 650px;
+  margin-top: 40px;
+}
+.img-3 {
+  height: 500px;
+  width: 650px;
+  margin-top: 40px;
+}
+.img-4 {
+  height: 500px;
+  width: 650px;
+  margin-top: 40px;
+}
+
+@media (max-width: 850px) {
+  .javascript-dom img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 572px) {
+  .javascript-dom img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 414px) {
+  .javascript-dom img {
+    width: 180px;
+    height: 200px;
+  }
+}
+@media (max-width: 344px) {
+  .javascript-dom img {
+    width: 140px;
+    height: 180px;
+  }
 }
 /* ------------MEDIA---------- */
 
