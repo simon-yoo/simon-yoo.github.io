@@ -7,7 +7,9 @@ black */
 /* #778da9 */
 /* #d5b9b2 */
 /* #d8e2dc */
-/* f2e9e4 */
+/* #f2e9e4 */
+/* #b7b7a4 */
+/* #e0dfd5 */
 
 /* ---------index.html ----------- */
 /* ------------HEADER-------------- */
@@ -99,6 +101,8 @@ a {
   letter-spacing: 3px;
   border-radius: 3px;
   margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h3 {
@@ -314,10 +318,13 @@ h2 {
   padding: 200px 10px;
   letter-spacing: 3px;
   font-size: 20px;
-  background-color: #d5b9b2;
+  background-color: #778da9;
   margin-top: 100px;
-  border: 3px solid #778da9;
+  border: 3px solid #d5b9b2;
   border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
 }
 
 .identity div {
@@ -338,6 +345,58 @@ h2 {
 
 /* ---------Learning Plan--------- */
 
+.teWhare {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin: 100px 20px 80px;
+  padding: 100px 0;
+  letter-spacing: 3px;
+  background-color: #9ba390;
+}
+
+.teWhare img {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.teWhare h1 {
+  font-size: 60px;
+  font-weight: 900;
+  padding-bottom: 100px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.teWhare-plan {
+  width: 80%;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.teWhare-plan h2 {
+  font-size: 30px;
+  color: #3d4c2a;
+  padding-top: 40px;
+}
+.teWhare-plan p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3d4c2a;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.teWhare-plan hr {
+  width: 80%;
+}
+
 .learning-plan {
   display: flex;
   width: auto;
@@ -347,11 +406,13 @@ h2 {
   padding: 200px 20px;
   letter-spacing: 3px;
   font-size: 20px;
-  background-color: #778da9;
+  background-color: #d5b9b2;
   color: #ffffff;
-  border: 3px solid #d5b9b2;
+  border: 3px solid #778da9;
   border-radius: 3px;
   margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .learning-plan div {
@@ -379,7 +440,7 @@ h2 {
   letter-spacing: 3px;
   border: 3px solid black;
   border-radius: 3px;
-  margin: 150px 0;
+  margin: 150px 20px;
   padding: 50px 50px;
   font-size: 20px;
 }
@@ -411,6 +472,7 @@ h2 {
 }
 .mindful ul li {
   padding: 20px;
+  list-style-type: none;
 }
 .mindful h3 {
   margin-top: 80px;
@@ -425,9 +487,12 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-
   margin-top: 100px;
   letter-spacing: 3px;
+}
+
+.javascript-dom p {
+  font-size: 20px;
 }
 
 .javascript-dom h1 {
@@ -442,7 +507,9 @@ h2 {
 .relationship {
   border: 3px solid black;
   padding: 100px 30px;
-  margin: 0 50px 50px 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
   background-color: #778da9;
   color: #fff;
 }
@@ -450,14 +517,18 @@ h2 {
 .control-flow {
   border: 3px solid black;
   padding: 100px 30px;
-  margin: 0 50px 50px 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
   background-color: #d8e2dc;
 }
 
 .function {
   border: 3px solid black;
   padding: 100px 30px;
-  margin: 0 50px 50px 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
   background-color: #d5b9b2;
   color: #fff;
 }
@@ -465,7 +536,9 @@ h2 {
 .dom {
   border: 3px solid black;
   padding: 100px 30px;
-  margin: 0 50px 50px 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
   background-color: #efd0bc;
 }
 
@@ -515,31 +588,88 @@ h2 {
   margin-top: 40px;
 }
 
-@media (max-width: 850px) {
-  .javascript-dom img {
-    width: 400px;
-    height: 350px;
-  }
+/* ---------Neuroplasticity ------------- */
+
+.neuroplasticity {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  letter-spacing: 3px;
+  background-color: #b7b7a4;
 }
 
-@media (max-width: 572px) {
-  .javascript-dom img {
-    width: 250px;
-    height: 300px;
-  }
+.neuroplasticity h1 {
+  font-weight: 900;
+  font-size: 50px;
+  padding-top: 50px;
 }
-@media (max-width: 414px) {
-  .javascript-dom img {
-    width: 180px;
-    height: 200px;
-  }
+
+.neuroplasticity h2 {
+  padding-top: 40px;
 }
-@media (max-width: 344px) {
-  .javascript-dom img {
-    width: 140px;
-    height: 180px;
-  }
+.neuroplasticity p {
+  font-size: 20px;
+  padding: 10px;
 }
+
+.neuroplasticity ul {
+  list-style-type: none;
+  font-size: 20px;
+  padding-right: 40px;
+  margin-bottom: 80px;
+}
+
+.neuroplasticity ul li a {
+  text-decoration: underline;
+}
+
+.growth-mindset {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 80px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #e0dfd5;
+}
+
+.growth-mindset h2 {
+  padding-top: 40px;
+}
+
+.growth-mindset p {
+  font-size: 20px;
+}
+.growth-mindset ul {
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: underline;
+  padding-right: 40px;
+  margin-bottom: 80px;
+}
+
+.growth-mindset h1 {
+  font-weight: 900;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.neuroplasticity-link:hover {
+  text-decoration: underline;
+}
+
 /* ------------MEDIA---------- */
 
 @media (max-width: 1327px) {
@@ -662,5 +792,83 @@ h2 {
   }
   .identity {
     font-size: 13px;
+  }
+}
+
+@media (max-width: 850px) {
+  .javascript-dom img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 572px) {
+  .javascript-dom img {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 414px) {
+  .javascript-dom img {
+    width: 180px;
+    height: 200px;
+  }
+}
+@media (max-width: 344px) {
+  .javascript-dom img {
+    width: 140px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 618px) {
+  .neuroplasticity h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  .neuroplasticity h1 {
+    font-size: 18px;
+  }
+  .neuroplasticity h2 {
+    font-size: 15px;
+  }
+  .neuroplasticity p {
+    font-size: 15px;
+  }
+  .neuroplasticity ul {
+    font-size: 15px;
+  }
+}
+@media (max-width: 618px) {
+  .neuroplasticity h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  .growth-mindset h1 {
+    font-size: 18px;
+  }
+  .growth-mindset h2 {
+    font-size: 15px;
+  }
+  .growth-mindset p {
+    font-size: 15px;
+  }
+  .growth-mindset ul {
+    font-size: 15px;
+  }
+}
+@media (max-width: 870px) {
+  .teWhare h1 {
+    font-size: 30px;
+  }
+  .teWhare-plan h2 {
+    font-size: 20px;
+  }
+  .teWhare-plan p {
+    font-size: 15px;
   }
 }
