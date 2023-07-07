@@ -10,6 +10,7 @@ black */
 /* #f2e9e4 */
 /* #b7b7a4 */
 /* #e0dfd5 */
+/* #adb5bd */
 
 /* ---------index.html ----------- */
 /* ------------HEADER-------------- */
@@ -204,10 +205,6 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 20px;
-}
-
-.te-houtaewa-link {
-  padding-top: 50px;
 }
 
 .te-houtaewa-link:hover {
@@ -670,6 +667,80 @@ h2 {
   text-decoration: underline;
 }
 
+/* --------------Problem-soliving----------- */
+
+.problem-solving {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 0;
+  width: auto;
+  letter-spacing: 3px;
+  border: 3px solid black;
+  border-radius: 3px;
+  margin: 40px 20px;
+  font-size: 25px;
+}
+.problem-solving h1 {
+  font-size: 60px;
+  padding-bottom: 80px;
+  width: auto;
+}
+.problem-solving hr {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.problem-1,
+.problem-2,
+.problem-3 {
+  border: 1px solid black;
+  margin: 40px 20px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+}
+
+.problem-1 {
+  background-color: #adb5bd;
+  color: #fff;
+}
+.problem-2 {
+  background-color: #adb5bd;
+  color: #fff;
+}
+
+.problem-3 {
+  background-color: #adb5bd;
+  color: #fff;
+}
+.problem-solving h2 {
+  font-size: 40px;
+  margin: 100px 10px;
+}
+
+.problem-1 h3 {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.problem-2 ul {
+  list-style-type: none;
+  padding: 50px 0;
+  margin: 0 10px;
+}
+.problem-2 ul li {
+  padding-bottom: 20px;
+}
+
+.problem-solving p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.problem-solving-link:hover {
+  text-decoration: underline;
+}
+
 /* ------------MEDIA---------- */
 
 @media (max-width: 1327px) {
@@ -870,5 +941,32 @@ h2 {
   }
   .teWhare-plan p {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .problem-solving h1 {
+    font-size: 40px;
+  }
+  .problem-solving h2 {
+    font-size: 30px;
+  }
+  .problem-solving h3 {
+    font-size: 25px;
+  }
+  .problem-solving {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 790px) {
+  .problem-solving h1 {
+    font-size: 30px;
+  }
+  .problem-solving h2 {
+    font-size: 25px;
+  }
+  .problem-solving {
+    font-size: 18px;
   }
 }
