@@ -420,6 +420,10 @@ h2 {
   padding-bottom: 50px;
 }
 
+.learning-plan b {
+  padding-top: 40px;
+}
+
 .learning-plan-link {
   display: flex;
 }
@@ -741,6 +745,30 @@ h2 {
   text-decoration: underline;
 }
 
+/* -----------FOUNDATION-REFLECTION---------- */
+
+.core {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 0;
+  width: auto;
+  letter-spacing: 3px;
+  border: 3px solid #9ba390;
+  border-radius: 3px;
+  margin: 40px 20px;
+  font-size: 25px;
+  background-color: #d5b9b2;
+  color: #fff;
+}
+.core hr {
+  width: 80%;
+  margin-top: 100px;
+}
+
+.foundations-reflection-link:hover {
+  text-decoration: underline;
+}
 /* ------------MEDIA---------- */
 
 @media (max-width: 1327px) {
@@ -968,5 +996,28 @@ h2 {
   }
   .problem-solving {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .core h1 {
+    font-size: 35px;
+  }
+  .core h2 {
+    font-size: 25px;
+  }
+  .core {
+    font-size: 22px;
+  }
+  @media (max-width: 790px) {
+    .core h1 {
+      font-size: 30px;
+    }
+    .core h2 {
+      font-size: 23px;
+    }
+    .core {
+      font-size: 18px;
+    }
   }
 }
