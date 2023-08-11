@@ -432,6 +432,9 @@ h2 {
   text-decoration: underline;
 }
 
+.wellbeing {
+  list-style-type: none;
+}
 /* -------------Emotional-intelligence------------- */
 
 .emotional {
